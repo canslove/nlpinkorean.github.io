@@ -352,12 +352,16 @@ footer {
   position: absolute;
   z-index: 1;
   bottom: 100%;
-  left: 5%; 
-  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  left: 0%; 
+  margin-left: 0px; /* Use half of the width (120/2 = 60), to center the tooltip */
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip:active .tooltiptext {
   visibility: visible;
 }
 
