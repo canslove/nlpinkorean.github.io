@@ -12,6 +12,11 @@ layout: default
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
-
+  {% if page.title %}
+  <div class="date">
+    Translated on {{ page.tdate | date: "%B %e, %Y" }}
+  </div>
+  {% endif %}
+  <br>
   {% include disqus.html %}
 </article>

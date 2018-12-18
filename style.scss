@@ -287,3 +287,86 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+
+// seq2seq + attention
+.encoder{
+  color:#70BF41
+}
+
+.decoder{
+  color:#B36AE2
+}
+
+.context{
+  color:#F39019
+}
+
+.embedding{
+  color:#00882B
+}
+
+
+.step_no{
+  color:#5CBCE9
+}
+
+.ffnn{
+  color:#EC5D57
+}
+
+.logits_output{
+  color:#DF5F91
+}
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  padding: 5px 2px;
+  border-radius: 6px;
+  opacity: 0.9;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 5%; 
+  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+a {
+  target-name:new;
+  target-new:tab;
+}
+
+.transcomment {
+  color: lightslategray;
+  display: inline;
+}
