@@ -15,7 +15,7 @@ tdate: 2018-12-17
 이 글 외에도 다른 신경망 관련된 여러 최신 모델들과 개념이 잘 설명돼 있어 시간이 되신다면 추가로 확인해보셔도 좋을 것 같습니다.
 또한 추후에 본 블로그에서 Transformer 와 Bert+ELMo 포스팅들도 가져와 번역할 예정입니다.
 
-아래의 번역 글은 마우스를 올리시면 원문을 확인하실 수 있습니다. 모바일 환경에서는 터치를 하시면 나타납니다. 혹시 번역에 심각한 오류 혹은 오탈자를 확인하신다면 밑의 Disqus 댓글 창에 남겨주시면 감사하겠습니다.  
+아래의 번역 글은 마우스를 올리시면 (모바일의 경우 터치) 원문을 확인하실 수 있습니다. 혹시 번역에 심각한 오류 혹은 오탈자를 확인하신다면 밑의 Disqus 댓글 창에 남겨주시면 감사하겠습니다.  
 <p align="center">(이하 본문)</p>
 
 ---
@@ -418,7 +418,7 @@ If you feel you're ready to learn the implementation, be sure to check TensorFlo
 
 <div class="tooltip" markdown="1">
 여기에 그려진 것들은 제가 Udacity에서 하고 있는 강의 [Natural Language Processing Nanodegree Program](https://www.udacity.com/course/natural-language-processing-nanodegree--nd892)의 한 수업 중 일부분입니다. 
-이 강의에서 관련된 응용 부분들과 Transformer 모델 ([Attention Is All You Need](https://arxiv.org/abs/1706.03762))과 같은 attention 메커니즘을 활용한 최근 연구 등등 더욱ㄴ더 자세한 것을 다루고 있으니 관심이 있으시다면 확인해보세요. 
+이 강의에서 관련된 응용 부분들과 Transformer 모델 ([Attention Is All You Need](https://arxiv.org/abs/1706.03762))과 같은 attention 메커니즘을 활용한 최근 연구 등등 더욱더 자세한 것을 다루고 있으니 관심이 있으시다면 확인해보세요. 
 <span class="tooltiptext">
 I hope you've found this useful. These visuals are early iterations of a lesson on attention that is part of the Udacity [Natural Language Processing Nanodegree Program](https://www.udacity.com/course/natural-language-processing-nanodegree--nd892). We go into more details in the lesson, including discussing applications and touching on more recent attention methods like the Transformer model from  [Attention Is All You Need](https://arxiv.org/abs/1706.03762).
 </span>
