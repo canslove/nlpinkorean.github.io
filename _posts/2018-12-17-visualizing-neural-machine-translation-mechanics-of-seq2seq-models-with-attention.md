@@ -61,7 +61,7 @@ A sequence-to-sequence model is a model that takes a sequence of items (words, l
 </div>
 
 <video width="100%" height="auto" loop autoplay controls>
-  <source src="/images/seq2seq_1.mp4" type="video/mp4">
+  <source src="/images/seq2seq/seq2seq_1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -77,7 +77,7 @@ In neural machine translation, a sequence is a series of words, processed one af
 </div>
 
 <video width="100%" height="auto" loop autoplay controls>
-  <source src="/images/seq2seq_2.mp4" type="video/mp4">
+  <source src="/images/seq2seq/seq2seq_2.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -102,7 +102,7 @@ The <span class="encoder">encoder</span> processes each item in the input sequen
 </div>
 
 <video width="100%" height="auto" loop autoplay  controls>
-  <source src="/images/seq2seq_3.mp4" type="video/mp4">
+  <source src="/images/seq2seq/seq2seq_3.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -118,7 +118,7 @@ The same applies in the case of machine translation.
 </div>
 
 <video width="100%" height="auto" loop autoplay controls>
-  <source src="/images/seq2seq_4.mp4" type="video/mp4">
+  <source src="/images/seq2seq/seq2seq_4.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -131,7 +131,7 @@ The <span class="context">context</span>  is a vector (an array of numbers, basi
 </div>
 
 <div class="img-div" markdown="0">
-    <img src="/images/seq2seq_context.png" />
+    <img src="/images/seq2seq/seq2seq_context.png" />
 <div class="tooltip" markdown="1">
 <span class="context">context</span> 는 float 으로 이루어진 하나의 벡터입니다. 우리의 시각화 예시에서는 더 높은 값을 가지는 소수를 더 밝게 표시할 예정입니다.
 <span class="tooltiptext">
@@ -165,7 +165,7 @@ By design, a RNN takes two inputs at each time step: an input (in the case of th
 <br />
 
 <div class="img-div" markdown="0">
-    <img src="/images/seq2seq_embedding.png" />
+    <img src="/images/seq2seq/seq2seq_embedding.png" />
 <div class="tooltip" markdown="1">
 앞서 설명한 대로 encoder에서 단어들을 처리하기 전에 먼저 벡터들로 변환해주어야 합니다. 
 우리는 <a href="https://en.wikipedia.org/wiki/Word_embedding">word embedding</a> 알고리즘을 이용해 변환합니다.
@@ -185,7 +185,7 @@ Now that we've introduced our main vectors/tensors, let's recap the mechanics of
 
 
 <video width="100%" height="auto" loop autoplay controls>
-  <source src="/images/seq2seq_RNN_1.mp4" type="video/mp4">
+  <source src="/images/seq2seq/seq2seq_RNN_1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -218,7 +218,7 @@ Let's look at the <span class="context">hidden states</span>  for the <span clas
 </div>
 
 <video width="100%" height="auto" loop autoplay controls>
-  <source src="/images/seq2seq_5.mp4" type="video/mp4">
+  <source src="/images/seq2seq/seq2seq_5.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -244,7 +244,7 @@ Let's now look at another way to visualize a sequence-to-sequence model. This an
 
 
 <video width="100%" height="auto" loop autoplay controls>
-  <source src="/images/seq2seq_6.mp4" type="video/mp4">
+  <source src="/images/seq2seq/seq2seq_6.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -264,7 +264,7 @@ The <span class="context">context</span>  vector turned out to be a bottleneck f
 </div>
 
 
-<img src="/images/seq2seq_attention.png" />
+<img src="/images/seq2seq/seq2seq_attention.png" />
 
 <div class="img-div" markdown="0">
 <div class="tooltip" markdown="1">
@@ -296,7 +296,7 @@ First, the <span class="encoder">encoder</span> passes a lot more data to the <s
 
 
 <video width="100%" height="auto" loop autoplay controls>
-  <source src="/images/seq2seq_7.mp4" type="video/mp4">
+  <source src="/images/seq2seq/seq2seq_7.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -323,7 +323,7 @@ Second, an attention <span class="decoder">decoder</span>  does an extra step be
 
 
 <video width="100%" height="auto" loop autoplay controls>
-   <source src="/images/seq2seq_attention_process.mp4" type="video/mp4">
+   <source src="/images/seq2seq/seq2seq_attention_process.mp4" type="video/mp4">
    Your browser does not support the video tag.
 </video>
 
@@ -365,7 +365,7 @@ Repeat for the next time steps
 </div>
 
 <video width="100%" height="auto" loop autoplay controls>
-   <source src="/images/seq2seq_attention_tensor_dance.mp4" type="video/mp4">
+   <source src="/images/seq2seq/seq2seq_attention_tensor_dance.mp4" type="video/mp4">
    Your browser does not support the video tag.
 </video>
 
@@ -380,7 +380,7 @@ This is another way to look at which part of the input sentence we're paying att
 
 
 <video width="100%" height="auto" loop autoplay controls>
-  <source src="/images/seq2seq_9.mp4" type="video/mp4">
+  <source src="/images/seq2seq/seq2seq_9.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -394,7 +394,7 @@ Note that the model isn't just mindless aligning the first word at the output wi
 </div>
 
 <div class="img-div" markdown="0">
-<img src="/images/seq2seq_attention_sentence.png" />
+<img src="/images/seq2seq/seq2seq_attention_sentence.png" />
 <div class="tooltip" markdown="1">
 모델이 "European Economic Area"를 제대로 출력할 때 모델이 얼마나 잘 주의를 하고 있는지를 볼 수 있습니다.
 영어와는 달리 불어에서는 이 단어들의 순서가 반대입니다 ("européenne économique zone").
