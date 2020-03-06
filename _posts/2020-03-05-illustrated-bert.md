@@ -3,13 +3,13 @@ layout: post
 published: True
 title: The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)
 ktitel: BERT, ELMo의 시각화 (NLP에서의 Transfer Learning)
-date: 2018-12-03
-tdate: 2018-01-02
+original_date: 2018-12-03
+date: 2020-03-05
 author: 찬
 original_author: Jay Alammar
 ---
 
-[저번 글](https://nlpinkorean.github.io/illustrated-transformer/)에 이어 이번엔 다른 contextualized Language Model 들인 BERT와 ELMo에 대한 글을 번역해보았습니다. 마찬가지로 [블로그 by Jay Alammar](https://jalammar.github.io)에서 허락을 받고 가져온 글이며, 원문은 [본 링크](https://jalammar.github.io/illustrated-transformer/) 에서 확인하실 수 있습니다.
+[저번 글](https://nlpinkorean.github.io/illustrated-transformer/)에 이어 이번엔 다른 contextualized Language Model 들인 BERT와 ELMo에 대한 글을 번역해보았습니다. 마찬가지로 [블로그 by Jay Alammar](https://jalammar.github.io)에서 허락을 받고 가져온 글이며, 원문은 [본 링크](https://jalammar.github.io/illustrated-bert/) 에서 확인하실 수 있습니다.
 
 아래의 번역 글은 마우스를 올리시면 (모바일의 경우 터치) 원문을 확인하실 수 있습니다. 혹시 번역에 심각한 오류 혹은 오탈자를 확인하신다면 밑의 Disqus 댓글 창에 남겨주시면 감사하겠습니다.  
 <p align="center">(이하 본문)</p>

@@ -3,8 +3,8 @@ layout: post
 published: True
 title: The Illustrated Transformer
 ktitel: Transformer 모델
-date: 2018-06-27
-tdate: 2018-12-20
+original_date: 2018-06-27
+date: 2018-12-20
 author: 찬
 original_author: Jay Alammar
 ---

@@ -3,8 +3,8 @@ layout: post
 published: True
 title: Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)
 ktitel: 신경망 기계 학습 모델의 시각화 (Seq2seq + Attention 모델의 메커니즘)
-date: 2018-05-09
-tdate: 2018-12-17
+origina_date: 2018-05-09
+date: 2018-12-17
 author: 찬
 original_author: Jay Alammar
 ---
