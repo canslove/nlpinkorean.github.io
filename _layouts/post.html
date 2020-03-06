@@ -10,11 +10,11 @@ layout: default
   </div>
 
   <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+    Written on {{ page.date | date: "%B %e, %Y" }} {% if page.original_author %} by {{page.original_author}} {% endif %}
   </div>
   {% if page.title %}
   <div class="date">
-    Translated on {{ page.tdate | date: "%B %e, %Y" }}
+    Translated on {{ page.tdate | date: "%B %e, %Y" }} {% if page.author %} by {{page.author}} {% endif %}
   </div>
   {% endif %}
   <br>
