@@ -154,12 +154,7 @@ Fact-checking
 </span>
 </div>
 
-<div class="tooltip" markdown="1">
 ## 모델 구조
-<span class="tooltiptext">
-Model Architecture
-</span>
-</div>
 
 
 <div class="tooltip" markdown="1">
@@ -209,12 +204,7 @@ Both BERT model sizes have a large number of encoder layers (which the paper cal
 </div>
 
 
-<div class="tooltip" markdown="1">
 ### Model Inputs
-<span class="tooltiptext">
-Model Inputs
-</span>
-</div>
 
 
 <img src="/images/bert/bert-input-output.png"/>
@@ -278,12 +268,7 @@ If you have more labels (for example if you're an email service that tags emails
 </span>
 </div>
 
-<div class="tooltip" markdown="1">
 ## Convolutional Networks와의 유사점
-<span class="tooltiptext">
-Parallels with Convolutional Nets
-</span>
-</div>
 
 
 <div class="tooltip" markdown="1">
@@ -297,12 +282,7 @@ For those with a background in computer vision, this vector hand-off should be r
 <img src="/images/bert/vgg-net-classifier.png"/>
 
 
-<div class="tooltip" markdown="1">
-## 새로운 Embedding의 시대가 왔습니다.
-<span class="tooltiptext">
-A New Age of Embedding
-</span>
-</div>
+## 드디어 새로운 Embedding의 시대가 왔습니다.
 
 
 <div class="tooltip" markdown="1">
@@ -315,13 +295,7 @@ These new developments carry with them a new shift in how words are encoded. Up 
 </span>
 </div>
 
-<div class="tooltip" markdown="1">
 ### Word Embedding 복습
-<span class="tooltiptext">
-Word Embedding Recap
-</span>
-</div>
-
 
 <div class="tooltip" markdown="1">
 머신 러닝 모델들이 단어를 처리하고 계산에 이용하기 위해서는, 이 단어들을 숫자로 표현 (numeric representation)을 해야만 합니다.
@@ -366,13 +340,7 @@ Since these are large and full of numbers, I use the following basic shape in th
 </div>
 
 
-<div class="tooltip" markdown="1">
-### ELMo: Context 를 고려해야 함!
-<span class="tooltiptext">
-ELMo: Context Matters
-</span>
-</div>
-
+### ELMo: 우리 이제 Context 를 고려해야 함!
 
 <div class="tooltip" markdown="1">
 만약 우리가 GloVe representation을 이용한다면, 이 "stick"이라는 단어는 그 어떤 맥락 (context)에서도 같은 벡터로 나타내질 것입니다.
@@ -487,12 +455,7 @@ ELMo comes up with the contextualized embedding through grouping together the hi
 
 
 
-<div class="tooltip" markdown="1">
 ## ULM-FiT: NLP에서 Transfer learning 제대로 하기
-<span class="tooltiptext">
-ULM-FiT: Nailing down Transfer Learning in NLP
-</span>
-</div>
 
 <div class="tooltip" markdown="1">
 ULM-FiT은 pre-training 과정에서 모델이 배우는 많은 것들을 효과적으로 활용하는 방법을 제안했습니다. 단순히 pre-training 에서 나온 embedding 혹은 contextualized embedding 을 쓰는 것이 아니라, 그 모델 자체를 활용하는 방법을 고안한 것입니다. 더 자세히 말하자면, ULM-FiT은 다양한 task들에 대해 학습된 language model을 효과적으로 fine-tune (target task에 맞도록 마지막 세부 튜닝을 해주는 것) 하는 과정을 소개하였습니다.
@@ -509,12 +472,7 @@ NLP finally had a way to do transfer learning probably as well as Computer Visio
 </span>
 </div>
 
-<div class="tooltip" markdown="1">
-Transformer: LSTM을 뛰어 넘어서
-<span class="tooltiptext">
-The Transformer: Going beyond LSTMs
-</span>
-</div>
+## Transformer: LSTM을 뛰어 넘어서
 
 <div class="tooltip" markdown="1">
 트랜스포머 모델의 논문과 코드가 공개된 후에, 사람들은 기계번역 등과 같은 여러 테스크들에서 매우 좋은 결과를 얻은 것을 보고, 이제 트랜스포머가 LSTM을 대체할 것이라고 생각하였습니다.
@@ -535,12 +493,7 @@ The Encoder-Decoder structure of the transformer made it perfect for machine tra
 </div>
 
 
-<div class="tooltip" markdown="1">
 ## OpenAI Transformer: Language Modeling 을 위한 트랜스포머 디코더를 pre-train 시키는 방법
-<span class="tooltiptext">
-OpenAI Transformer: Pre-training a Transformer Decoder for Language Modeling
-</span>
-</div>
 
 <div class="tooltip" markdown="1">
 우리가 원하는 것은 NLP에서 transfer learning을 가능하게 하기 위한 fine-tune 할 수 있는 language model 입니다. 사람들의 고민 결과, 우리는 트랜스포머의 encoder-decoder 구조의 전체가 필요하지 않다는 결론을 내립니다. decoder 부분만으로도 할 수 있습니다. 다시 transformer에 대해서 생각해보면 
@@ -594,12 +547,7 @@ The OpenAI Transformer is now ready to be trained to predict the next word on a 
 </div>
 </div>
 
-<div class="tooltip" markdown="1">
 ## Downstream 테스크들에 Transfer Learning 적용하기
-<span class="tooltiptext">
-Transfer Learning to Downstream Tasks
-</span>
-</div>
 
 <div class="tooltip" markdown="1">
 이제 OpenAI 트랜스포머의 모델이 pre-trained 되었습니다. 모델의 각 층 (layer)은 언어를 어느정도 잘 처리할 수 있도록 학습이 되었습니다.
@@ -638,25 +586,25 @@ The OpenAI paper outlines a number of input transformations to handle the inputs
 
 
 <div class="tooltip" markdown="1">
-기발하지 않나요?
+정말 기발하지 않나요?
 <span class="tooltiptext">
 Isn't that clever?
 </span>
 </div>
+<br>
 
 
-<div class="tooltip" markdown="1">
 ## BERT: Decoder 에서 Encoder 으로
-<span class="tooltiptext">
-BERT: From Decoders to Encoders
-</span>
-</div>
 
 <div class="tooltip" markdown="1">
+OpenAI 트랜스포머 모델은 우리에게 나중에 fine-tune 할 수 있는 pre-train된 모델을 제시했습니다.
+하지만, LSTM에서 Transformer로 완전히 넘어가기엔 아직 문제가 있습니다. 
+ELMo의 language model을 bi-directional (양쪽의 단어를 모두 봄) 했는데, openAI의 트랜스포머는 오직 한 방향, 즉 forward language model만 학습시킨다는 점입니다.
+트랜스포머를 베이스로 하면서도 양쪽 방향을 모두 보는 모델을 만들 순 없는 걸까요 (이걸 테크니컬한 용어로 "오른쪽과 왼쪽, 즉 양쪽 방향의 맥락에 condition 되었다"고 합니다)? 
 <span class="tooltiptext">
+The openAI transformer gave us a fine-tunable pre-trained model based on the Transformer. But something went missing in this transition from LSTMs to Transformers. ELMo's language model was bi-directional, but the openAI transformer only trains a forward language model. Could we build a transformer-based model whose language model looks both forward and backwards (in the technical jargon -- "is conditioned on both left and right context")?
 </span>
 </div>
-The openAI transformer gave us a fine-tunable pre-trained model based on the Transformer. But something went missing in this transition from LSTMs to Transformers. ELMo's language model was bi-directional, but the openAI transformer only trains a forward language model. Could we build a transformer-based model whose language model looks both forward and backwards (in the technical jargon -- "is conditioned on both left and right context")?
 
 <div class="tooltip" markdown="1">
 "내 맥주 들어줘", 성인 버전의  BERT가 말했습니다.
@@ -665,14 +613,7 @@ The openAI transformer gave us a fine-tunable pre-trained model based on the Tra
 </span>
 </div>
 
-
-<div class="tooltip" markdown="1">
 ### Masked Language Model 이란?
-<span class="tooltiptext">
-Masked Language Model
-</span>
-</div>
-
 
 <div class="tooltip" markdown="1">
 "우리는 transformer를 encoder로 쓸거야", BERT가 말했습니다.
@@ -725,13 +666,7 @@ Beyond masking 15% of the input, BERT also mixes things a bit in order to improv
 </span>
 </div>
 
-
-<div class="tooltip" markdown="1">
 ### 두개의 문장을 이용한 테스크들
-<span class="tooltiptext">
-Two-sentence Tasks
-</span>
-</div>
 
 <div class="tooltip" markdown="1">
 OpenAI의 트랜스포머의 경우를 다시 생각해보면, 단어간의 관계를 묻는 languuage modeling 테스크 말고는 다른 테스크를 고려하지 않았죠. 
@@ -763,12 +698,7 @@ MLM으로 BERT를 학습시킨 후, 두번째로 two-sentence classification 테
 
 
 
-<div class="tooltip" markdown="1">
 ### 목표 Task에 맞게 모델 학습시키기
-<span class="tooltiptext">
-Task specific-Models
-</span>
-</div>
 
 <div class="tooltip" markdown="1">
 BERT의 논문에서는 여러가지 테스크들에서 어떻게 BERT 모델을 활용할 수 있는지 보여주고 있습니다. downstream 테스크들을 크게 네가지로 나누어 설명하고 있는 아래의 그림을 참고하세요.
@@ -783,12 +713,7 @@ The BERT paper shows a number of ways to use BERT for different tasks.
 </div>
 
 
-<div class="tooltip" markdown="1">
 ### BERT 로 feature extraction 하기
-<span class="tooltiptext">
-BERT for feature extraction
-</span>
-</div>
 
 <div class="tooltip" markdown="1">
 BERT를 활용하는 방법에 fine-tuning만 있는 것은 아닙니다.
@@ -819,12 +744,7 @@ Which vector works best as a contextualized embedding? I would think it depends 
   <br />
 </div>
 
-<div class="tooltip" markdown="1">
 ## BERT 직접 (간단히) 테스트 해보기
-<span class="tooltiptext">
-Take BERT out for a spin
-</span>
-</div>
 
 <div class="tooltip" markdown="1">
 BERT를 테스트 해보는 가장 좋은 방법은 [Cloud TPUs로 BERT FineTuning 하기](https://colab.research.google.com/github/tensorflow/tpu/blob/master/tools/colab/bert_finetuning_with_cloud_tpus.ipynb) 라는 Google Colab에 있는 주피터 노트북을 써보는 것입니다. 
@@ -863,12 +783,7 @@ You can also check out the [PyTorch implementation of BERT](https://github.com/h
 </span>
 </div>
 
-<div class="tooltip" markdown="1">
-## 도움을 주신 분들
-<span class="tooltiptext">
-Acknowledgements
-</span>
-</div>
+## 도움 주신 분들
 
 
 <div class="tooltip" markdown="1">
