@@ -5,6 +5,8 @@ title: Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Mode
 ktitel: 신경망 기계 학습 모델의 시각화 (Seq2seq + Attention 모델의 메커니즘)
 date: 2018-05-09
 tdate: 2018-12-17
+author: 찬
+original_author: Jay Alammar
 ---
 
 최근 10년 동안의 자연어 처리 연구 중에 가장 영향력이 컸던 3가지를 꼽는 [서베이](https://docs.google.com/document/d/18NoNdArdzDLJFQGBMVMsQ-iLOowP1XXDaSVRmYN0IyM/mobilebasic)에서 여러 연구자들이 꼽았던 연구가 바로 2014년에 발표됐던 sequence-to-sequence (Seq2seq) + Attention 모델입니다 ([Sutskever et al., 2014](https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf), [Cho et al., 2014](http://emnlp2014.org/papers/pdf/EMNLP2014179.pdf)).

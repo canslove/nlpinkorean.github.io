@@ -5,6 +5,8 @@ title: The Illustrated Transformer
 ktitel: Transformer 모델
 date: 2018-06-27
 tdate: 2018-12-20
+author: 찬
+original_author: Jay Alammar
 ---
 
 [저번 글](https://nlpinkorean.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)에서 다뤘던 attention seq2seq 모델에 이어, attention 을 활용한 또 다른 모델인 Transformer 모델에 대해 얘기해보려 합니다.
