@@ -6,8 +6,9 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
+      <h1><a href="{{ site.baseurl }}{{ post.url }}" style="color:#000000;">{{ post.title }}</a></h1>
+      <p style="color:#757575;margin-top:-15px;">{% if post.date %}{{ post.date | date: "%B %e, %Y" }} {% endif %}</p>
+      
       <div class="entry">
         {{ post.excerpt }}
       </div>
