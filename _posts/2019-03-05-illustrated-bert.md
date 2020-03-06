@@ -4,7 +4,7 @@ published: True
 title: The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)
 ktitel: BERT, ELMo의 시각화 (NLP에서의 Transfer Learning)
 original_date: 2018-12-03
-date: 2020-03-05
+date: 2019-03-05
 author: 찬
 original_author: Jay Alammar
 ---
